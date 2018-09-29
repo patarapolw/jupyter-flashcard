@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "jupyter-flashcard"
 version = "0.1.1.6"
-description = ""
+description = "Create a database of Jupyter Notebooks and convert them into flashcards."
 authors = ["patarapolw <patarapolw@gmail.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "*"
