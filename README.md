@@ -20,9 +20,16 @@ By default, it uses PostGRESQL of the database named `jupyter-flashcard`, so you
 JupyterFlashcard(engine='sqlite:///PATH_TO_SQLITE_DATABASE')
 ```
 
-## Usage
+## Jupyter Notebooks to import's format
 
-In Jupyter Notebook:
+- Front side of the flashcard:
+  - Begins with `#`
+- Back side of the flashcard:
+  - All cells behind the front side of the card, until the next `#`
+
+## Quizzing
+
+In a new Jupyter Notebook:
 
 ```python
 >>> from jupyter_flashcard import JupyterFlashcard
